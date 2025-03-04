@@ -9,7 +9,7 @@ const numberOfLatestPostsToShow = 3;
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 
-<img src="https://i.imgur.com/KEjJOML.gif" width="40" class="moonwalk-baby"/>
+
 <h1>
 	<img src="https://i.imgur.com/EZeBNuV.gif" width="50" />
 	Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}
