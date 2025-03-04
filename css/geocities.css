@@ -901,7 +901,6 @@ blockquote {
 
 /* Top navigation */
 nav {
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -946,7 +945,7 @@ nav a[href][aria-current="page"] {
 
 @media screen and (min-width: 769px) {
   nav ul li {
-    width: calc(100% / 3);
+    width: calc(100% / 2);
   }
 }
 
@@ -1214,10 +1213,20 @@ aside.profile .container > a {
   font-size: 2.3rem;
   text-decoration: none;
   margin: auto;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (min-width: 1360px) {
+  .site-title {
+    width: auto;
+    margin-bottom: auto;
+  }
 }
 
 .moonwalk-baby {
-  position: absolute;
+  position: fixed;
+  z-index: -100;
   /*top: 50%;*/
   /*transform: translateY(-50%);
   /*width: 100px; Adjust size as needed */
