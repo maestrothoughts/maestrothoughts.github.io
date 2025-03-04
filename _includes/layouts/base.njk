@@ -45,10 +45,10 @@
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 			<nav>
 				<ul class="nav">
-					<a href="/" class="site-title">{{ metadata.title }}</a>
+					<a href="{{ '/' | url }}" class="site-title">{{ metadata.title }}</a>
 					{%- for entry in collections.all | eleventyNavigation %}
-						<li class="nav-item" href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>
-							<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+						<li class="nav-item" href="{{  entry.url | url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>
+							<a href="{{ entry.url | url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
 						</li>
 					{%- endfor %}
 				</ul>
