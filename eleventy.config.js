@@ -29,6 +29,7 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "./assets/favicon": "/" });
   eleventyConfig.addPassthroughCopy({ "./assets/fonts": "/" });
+  eleventyConfig.addPassthroughCopy({ "./assets/images": "/" });
   // Run Eleventy when these files change:
   // https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
