@@ -21,7 +21,7 @@
 
 :root {
   /*--background-color: #000000;*/
-  --body-font-color: #ffffff;
+  --body-font-color: #ebebeb;
   --white: #ffffff;
   --black: #000000;
   --blue: #0000ff;
@@ -923,7 +923,7 @@ nav ul {
 
 nav ul li {
   display: flex;
-  background-color: var(--blue);
+  background-color: #6c6af7;
   color: var(--white);
   width: 80%;
   justify-content: center;
@@ -1220,7 +1220,7 @@ aside.profile .container > a {
 }
 
 .site-title {
-  color: var(--white);
+  color: var(--body-font-color);
   font-family: var(--font-family-heading);
   font-weight: bold;
   font-size: 2.3rem;
@@ -1240,10 +1240,10 @@ aside.profile .container > a {
 .moonwalk-baby {
   position: fixed;
   z-index: -100;
-  /*top: 50%;*/
+  top: 50%;
   /*transform: translateY(-50%);
   /*width: 100px; Adjust size as needed */
-  animation: moveAcross 20s linear infinite;
+  animation: moveAcross calc(100vw / 50px * 1s) linear infinite;
   margin-top: 20px;
   margin-bottom: 200px;
 }
@@ -1296,9 +1296,13 @@ aside.profile .container > a {
   text-underline-position: from-font;
   text-underline-offset: 0;
   text-decoration-thickness: 1px;
+  color: var(--body-font-color);
 }
 .postlist-item-active .postlist-link {
   font-weight: bold;
+}
+.postlist-link:visited {
+  color: #656565;
 }
 
 /* Tags */
