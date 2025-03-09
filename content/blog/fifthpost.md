@@ -1,8 +1,7 @@
----
-title: This is my fifth post.
-description: This is a post on My Blog about agile frameworks.
-date: 2025-12-31
-tags: another tag
+---js
+const title = "This is a fifth post (draft)";
+const date = "2023-01-23";
+const draft = true;
 ---
 
 This is a draft post

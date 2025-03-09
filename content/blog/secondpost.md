@@ -1,11 +1,10 @@
----
-title: This is my second post with a much longer title.
-description: This is a post on My Blog about leveraging agile frameworks.
-date: 2018-07-04
-tags: number 2
+---js
+const title = "This is a second post (draft)";
+const date = "2023-01-23";
+const draft = true;
 ---
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+something about a phrase that starts in the prechorus but continues through the final drop. infinitely hard. mean girls, baby again
 
 ## Section Header
 

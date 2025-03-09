@@ -13,9 +13,13 @@ layout: layouts/base.njk
 <ul class="post-metadata">
 	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
 	{%- for tag in tags | filterTagList %}
-	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
+		{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
 	{%- endfor %}
+	<img src="https://maestrothoughts.github.io/dj.gif" height="50"/>
+	<img src="https://maestrothoughts.github.io/music_fire.gif" height="35"/>
+	<img src="https://maestrothoughts.github.io/playbutton.png" height="30"/>
+	<img src="https://maestrothoughts.github.io/volume_up.gif" height="30"/>
 </ul>
 
 {{ content | safe }}
