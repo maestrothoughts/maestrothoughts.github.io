@@ -1,99 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <title>Blog Title</title>
-  <subtitle>This is a longer description about your blog.</subtitle>
-  <link href="https://example.com/feed/feed.xml" rel="self" />
-  <link href="https://example.com/" />
-  <updated>2025-12-31T00:00:00Z</updated>
-  <id>https://example.com/</id>
+  <title>Maestro Thoughts</title>
+  <subtitle>Only high value knowledge shared here</subtitle>
+  <link href="https://maestrothoughts.github.io/feed/feed.xml" rel="self" />
+  <link href="https://maestrothoughts.github.io/" />
+  <updated>2025-03-08T00:00:00Z</updated>
+  <id>https://maestrothoughts.github.io/</id>
   <author>
-    <name>Your Name</name>
+    <name>Alvin</name>
   </author>
   <entry>
-    <title>This is my fifth post.</title>
-    <link href="https://example.com/blog/fifthpost/" />
-    <updated>2025-12-31T00:00:00Z</updated>
-    <id>https://example.com/blog/fifthpost/</id>
-    <content type="html">&lt;p&gt;This is a draft post&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>This is my fourth post</title>
-    <link href="https://example.com/blog/fourthpost/" />
-    <updated>2018-09-30T00:00:00Z</updated>
-    <id>https://example.com/blog/fourthpost/</id>
-    <content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/fourthpost/xbVnp_hAou-350.avif 350w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/fourthpost/xbVnp_hAou-350.webp 350w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/fourthpost/xbVnp_hAou-350.png&quot; alt=&quot;A possum parent and two possum kids hanging from the iconic red balloon&quot; width=&quot;350&quot; height=&quot;685&quot;&gt;&lt;/picture&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>This is my third post.</title>
-    <link href="https://example.com/blog/thirdpost/" />
-    <updated>2018-08-24T00:00:00Z</updated>
-    <id>https://example.com/blog/thirdpost/</id>
-    <content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
-&lt;h3 id=&quot;this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap&quot;&gt;This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap&lt;/h3&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;
-console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;heading-with-a-link&quot;&gt;Heading with a &lt;a href=&quot;https://example.com/blog/thirdpost/#code&quot;&gt;link&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-
-// Test with a line break above this line.
-console.log(&#39;Test&#39;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>This is my second post with a much longer title.</title>
-    <link href="https://example.com/blog/secondpost/" />
-    <updated>2018-07-04T00:00:00Z</updated>
-    <id>https://example.com/blog/secondpost/</id>
-    <content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://example.com/blog/firstpost/&quot;&gt;First post&lt;/a&gt;
-&lt;a href=&quot;https://example.com/blog/thirdpost/&quot;&gt;Third post&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. hi.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>This is my first post.</title>
-    <link href="https://example.com/blog/firstpost/" />
-    <updated>2018-05-01T00:00:00Z</updated>
-    <id>https://example.com/blog/firstpost/</id>
-    <content type="html">&lt;p&gt;Leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-&lt;pre class=&quot;language-diff-js&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-diff-js&quot;&gt;&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;
-&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;span class=&quot;token inserted-sign inserted language-js&quot;&gt;&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;span class=&quot;token deleted-sign deleted language-js&quot;&gt;&lt;span class=&quot;token prefix deleted&quot;&gt;-&lt;/span&gt;  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;  counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;
-&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+    <title>I Love Dance Music that Plays with Structure</title>
+    <link href="https://maestrothoughts.github.io/blog/firstpost/" />
+    <updated>2025-03-08T00:00:00Z</updated>
+    <id>https://maestrothoughts.github.io/blog/firstpost/</id>
+    <content type="html">&lt;p&gt;My primary motivation to create this website was to have an excuse to write and post this article.&lt;/p&gt;
+&lt;p&gt;One thing that my favorite dance music does is play with structure.&lt;/p&gt;
+&lt;h2 id=&quot;an-example-of-traditional-structure&quot;&gt;An Example of Traditional Structure&lt;/h2&gt;
+&lt;p&gt;Many dance songs, especially house songs, start with 8 bars of a repeating musical phrase, followed by the beat kicking in. An example of this would be one of my favorite songs of all time, Music Sounds Better with You.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FQlAEiCb8m0?si=xQjnGRa8RhHj1Y6B&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Most songs in this style have a similar structure, the beat kicking in after exactly 8 bars. As a result, listeners learn to expect this structure. However, some songs deliberately use this expectation to create surprise, to amazing (imo) results.&lt;/p&gt;
+&lt;h2 id=&quot;nontraditional-example-1-daft-punk&quot;&gt;Nontraditional Example 1: Daft Punk&lt;/h2&gt;
+&lt;p&gt;Daft Punk were the first artist in which I consciously noticed this exploitation of expectations. My favorite example is Indo Silver Club, off their debut album Homework.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VubH7FuW6TQ?si=G52PPd0uGf3FrfcI&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Like Music Sounds Better With You, the song starts with a looped phrase for 8 bars (there&#39;s an extra one at the beginning, but it&#39;s quiet enough to not feel like the true start of the song). The looped phrase consists of a piano that plays two low notes, then a few higher notes. Before the drop kicks in, it feels like the downbeat (first beat of each bar) is that first low note. So, if we count 8 bars with the first low note in mind as the downbeat, we expect the drop to start on bar 9 beat 1.&lt;/p&gt;
+&lt;p&gt;However, once we reach bar 9 beat 1, the drop doesn&#39;t hit.&lt;/p&gt;
+&lt;p&gt;The song didn&#39;t follow our expected timing; there&#39;s a split second of uncertainty.&lt;/p&gt;
+&lt;p&gt;Then we reach bar 9 beat 2, and the drop hits.&lt;/p&gt;
+&lt;p&gt;In this moment, the downbeat is revealed to be actually on the second low note.&lt;/p&gt;
+&lt;p&gt;In my opinion, this is hard as fuck. The song instantly gains an extra level of groove that sustains itself through the rest of the song.&lt;/p&gt;
+&lt;h2 id=&quot;nontraditional-example-2-charli-xcx&quot;&gt;Nontraditional Example 2: Charli XCX&lt;/h2&gt;
+&lt;p&gt;It should go without saying that Charli XCX is objectively a modern GOAT. As a result, it is unsurprising that one of her singles also plays with traditional dance music structural expectations.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kjAuUXdSFaM?si=ghrrTT8VN_HkzLJo&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Traditional song structures teach us to expect the drop to hit when Charli sings the &amp;quot;go&amp;quot; in &amp;quot;I always let the good ones go&amp;quot;. However, as with Indo Silver Club, once she starts singing &amp;quot;go&amp;quot;, no drop starts. There&#39;s a moment of uncertainty, but this time it lasts a full bar as Charli stretches out that &amp;quot;go&amp;quot;, after which the drop kicks in.&lt;/p&gt;
+&lt;h2 id=&quot;nontraditional-example-3-fred-again&quot;&gt;Nontraditional Example 3: Fred again..&lt;/h2&gt;
+&lt;p&gt;Fred again.. went on a generational tour run with Skrillex and Four Tet, culminating in the release of &amp;quot;Baby again..&amp;quot;.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hNkAqLMOhdA?si=dyl2l22pMDKjCabP&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;  
+&lt;p&gt;To my ears, this song is essentially an extended build up to a final drop, and starting from 3:59, it really starts gearing up for that drop to hit. The expected timing for the drop is after 8 bars; as can be expected from the first 2 examples, 8 bars go by and the drop doesn&#39;t hit. This time, it continues for another 2 bars. By the end of those 2 extra bars, we start to think maybe the drop isn&#39;t supposed to hit after 8 bars of buildup, but actually after 16 bars (traditional song structure dictates multiples of 8 feel the most correct). However, immediately after that, the drop hits on bar 11. It doesn&#39;t hurt that the bass is monstrous to heighten the effect.&lt;/p&gt;
 </content>
   </entry>
 </feed>

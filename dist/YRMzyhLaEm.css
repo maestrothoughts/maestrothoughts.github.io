@@ -1,3 +1,4 @@
+.postlist { counter-reset: start-from 2 }
 /* This is an arbitrary CSS string added to the bundle */
 /*!
 * LICENSE - style only: CC BY-NC-SA
@@ -1214,12 +1215,6 @@ aside.profile .container > a {
   padding: 1rem;
 }
 
-@media screen and (min-width: 769px) {
-  .page-footer {
-    padding: 0rem;
-  }
-}
-
 .site-title {
   color: var(--body-font-color);
   font-family: var(--font-family-heading);
@@ -1312,13 +1307,10 @@ aside.profile .container > a {
   text-underline-position: from-font;
   text-underline-offset: 0;
   text-decoration-thickness: 1px;
-  color: var(--body-font-color);
+  color: var(--purple);
 }
 .postlist-item-active .postlist-link {
   font-weight: bold;
-}
-.postlist-link:visited {
-  color: var(--grey-dark);
 }
 
 /* Tags */
@@ -1341,11 +1333,29 @@ aside.profile .container > a {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 1%;
+  align-items: center;
 }
 .post-metadata time {
   margin-right: 1em;
 }
 
+.links-nextprev {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
 a {
   color: var(--purple);
+}
+
+main p,
+main ul {
+  margin-bottom: 3%;
+}
+
+div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
