@@ -22,7 +22,9 @@ layout: layouts/base.njk
 	<img src="https://maestrothoughts.github.io/volume_up.gif" height="30"/>
 </ul>
 
-{{ content | safe }}
+<article class="post-content">
+  {{ content | safe }}
+</article>
 
 {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}

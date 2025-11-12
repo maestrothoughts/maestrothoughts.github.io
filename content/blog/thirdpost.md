@@ -7,6 +7,8 @@ const draft = true;
 leaveyourlove ep review
 find a way to relate every non daft punk thing to daft punk. mention daft punk in every post.
 
+concept lowkey like this: insert image of kids of different nationalities holding hands around the planet
+
 ## Code
 
 ### This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap
