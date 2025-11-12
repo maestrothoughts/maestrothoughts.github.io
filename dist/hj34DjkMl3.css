@@ -1,3 +1,4 @@
+.postlist { counter-reset: start-from 2 }
 /* This is an arbitrary CSS string added to the bundle */
 /*!
 * LICENSE - style only: CC BY-NC-SA
@@ -493,7 +494,7 @@ body {
   font-family: var(--font-family-main);
   color: var(--body-font-color);
   background-color: var(--background-color);
-  font-size: 16px;
+  font-size: 19px;
   text-rendering: optimizeSpeed;
   margin: 0 auto 0 auto;
   max-width: 80%;
@@ -502,7 +503,7 @@ body {
 
 @media screen and (min-width: 769px) {
   body {
-    padding: 0 32px;
+    max-width: 60%;
   }
 }
 
@@ -562,7 +563,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   font-family: var(--font-family-heading);
   text-align: center;
 }
@@ -1332,7 +1334,7 @@ aside.profile .container > a {
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-bottom: 1%;
+  margin-bottom: 1rem;
   align-items: center;
 }
 .post-metadata time {
@@ -1348,7 +1350,6 @@ a {
   color: var(--purple);
 }
 
-main p,
 main ul {
   margin-bottom: 3%;
 }
@@ -1357,4 +1358,17 @@ div {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.post-content iframe {
+  /*width: 100%;
+  height: auto;*/
+  display: block;
+  max-width: 100%;
+  height: 20rem;
+  aspect-ratio: 4 / 3;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  margin-left: auto; /* Automatically adjust left margin */
+  margin-right: auto;
 }
