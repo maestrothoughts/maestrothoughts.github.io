@@ -187,7 +187,7 @@ pre[class*="language-diff-"] {
 }
 
 :root {
-  /*--background-color: #000000;*/
+  --background-color: #000000;
   --body-font-color: #ebebeb;
   --white: #ffffff;
   --black: #000000;
@@ -652,6 +652,7 @@ pre[class*="language-diff-"] {
 /* Layout */
 html {
   background-image: var(--stars);
+  background-color: var(--background-color);
   background-repeat: repeat;
   overflow-x: hidden;
   height: 100%;
@@ -660,7 +661,6 @@ html {
 body {
   font-family: var(--font-family-main);
   color: var(--body-font-color);
-  background-color: var(--background-color);
   font-size: 19px;
   text-rendering: optimizeSpeed;
   margin: 0 auto 0 auto;
@@ -1134,7 +1134,7 @@ nav a[href][aria-current="page"] {
 
 @media screen and (min-width: 1360px) {
   nav ul li {
-    width: calc(100% / 6);
+    width: calc(100% / 7);
   }
 }
 
