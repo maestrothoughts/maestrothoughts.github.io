@@ -13,7 +13,8 @@ const eleventyNavigation = {
 
 Hello, I'm Alvin. Only high value knowledge shared here.
 
-Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a>, and styling based on <a href="https://stylestage.dev/styles/geocities/">"Geocities" by whitep4nth3r</a>, which itself was a reference to <a href="https://en.wikipedia.org/wiki/GeoCities"> GeoCities</a>
+<br/>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a>. Styling based on <a href="https://stylestage.dev/styles/geocities/">"Geocities" by whitep4nth3r</a>, which itself was a reference to <a href="https://en.wikipedia.org/wiki/GeoCities"> GeoCities</a>.
+<br/><br/>
 
 <div>
     <a href="mailto:chenalvin511@gmail.com"><img src="https://maestrothoughts.github.io/email.gif" width="50" /></a>
