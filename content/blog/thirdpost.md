@@ -4,10 +4,7 @@ const date = "2023-01-23";
 const draft = true;
 ---
 
-leaveyourlove ep review
-find a way to relate every non daft punk thing to daft punk. mention daft punk in every post.
-
-concept lowkey like this: insert image of kids of different nationalities holding hands around the planet
+something about a phrase that starts in the prechorus but continues through the final drop. infinitely hard. mean girls, baby again
 
 ## Code
 

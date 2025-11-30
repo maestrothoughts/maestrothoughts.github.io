@@ -563,7 +563,7 @@ h5,
 h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family-button);
   text-align: center;
 }
 

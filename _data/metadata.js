@@ -7,4 +7,5 @@ export default {
     name: "Alvin Chen",
     email: "chenalvin511@gmail.com",
   },
+  google_analytics_id: "G-83KQSZJ048",
 };
